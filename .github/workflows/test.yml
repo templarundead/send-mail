@@ -44,11 +44,11 @@ jobs:
         with:
           server_address: ${{secrets.ADDRESS}}
           server_port: 465
-          username: ${{secrets.USERNAME}}
-          password: ${{secrets.PASSWORD}}
+          username: ${{secrets.GMAIL_USERNAME}}
+          password: ${{secrets.GMAIL_PASSWORD}}
           subject: ${{github.repository}}
           body: ${{matrix.body}}
-          to: ${{github.event.pusher.email}}
+          to: ${{ secrets.MAILRU_USERNAME }}
           from: github-actions
           content_type: ${{matrix.content_type}}
           convert_markdown: ${{matrix.convert_markdown}}
