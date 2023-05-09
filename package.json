@@ -19,6 +19,6 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "nodemailer": "^6.4.17",
-    "showdown": "^1.9.1"
+    "showdown": "^2.0.0"
   }
 }
