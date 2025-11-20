@@ -38,7 +38,7 @@ jobs:
               - bullet 2
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Send mail
         uses: ./
         with:
