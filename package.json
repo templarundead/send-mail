@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dawidd6/action-send-mail#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^3.0.0",
     "nodemailer": "^6.4.17",
     "showdown": "^2.0.0"
   }
